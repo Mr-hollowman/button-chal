@@ -12,6 +12,7 @@ function App() {
       <div className="dir-col">
         <span>{"<Button variant={'outlined'} />"}</span>
         <MyButton variant={'outlined'} />
+        
       </div>
     </div>
   );
