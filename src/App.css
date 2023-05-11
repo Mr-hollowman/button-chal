@@ -1,12 +1,61 @@
-button{
-  border: 0px;
+button {
+  border: 0px !important;
   padding: 10px;
-  border-radius: 5px;
-  margin: 10px;
+  border-radius: 5px !important;
+  margin: 10px !important;
+  background: #e0e0e0;
 }
-.md{
+button:hover {
+  background: #aeaeae;
+}
+.md {
   padding: 13px;
 }
-.lg{
+.lg {
   padding: 15px;
+}
+.secondary {
+  background: #455a64;
+  color: white;
+}
+.secondary:hover {
+  background: #1c313a;
+}
+.danger {
+  background: #d32f2f;
+  color: white;
+}
+.danger:hover {
+  background: #9a0007;
+}
+.primary {
+  background: #2962ff;
+  color: white;
+}
+.primary:hover {
+  background: #0039cb;
+}
+.outlined {
+  border: 1px solid #3d5afe !important;
+  background: white !important;
+  color: blue;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.outlined:hover {
+  background-color: rgba(41, 98, 255, 0.1) !important;
+}
+.text {
+  background: none;
+  color: blue;
+}
+.text:hover {
+  background-color: rgba(41, 98, 255, 0.1) !important;
+}
+
+.dir-col{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
 }
