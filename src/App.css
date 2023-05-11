@@ -1,0 +1,19 @@
+button{
+  border: 0px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.md{
+  padding: 13px;
+}
+.lg{
+  padding: 15px;
+}
+.active{
+  background-color: blue;
+}
+.menu-items{
+  padding: 10px;
+  border-radius: 5px;
+}
